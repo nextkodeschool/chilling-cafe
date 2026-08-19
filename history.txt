@@ -1,0 +1,84 @@
+    1  ls
+    2  sudo apt update
+    3  sudo apt install git -y
+    4  ls
+    5  git clone git@github.com:nextkodeschool/chilling-cafe.git
+    6  ssh-keygen -t rsa
+    7  ls .shh
+    8  ls -a
+    9  ls .ssh
+   10  cat .ssh/id_rsa.pub 
+   11  git clone git@github.com:nextkodeschool/chilling-cafe.git
+   12  ls
+   13  cd chilling-cafe/
+   14  ls
+   15  vim website.sh
+   16  git config --global user.name "nextkodeschool"
+   17  git config --global user.email "nextkodeschool@gmail.com"
+   18  git status
+   19  git add website.sh 
+   20  git status
+   21  git commit -m "Initial Commit for Chilling Cafe Website"
+   22  git log
+   23  git push
+   24  cat website.sh 
+   25  git pull
+   26  cat website.sh 
+   27  chmod +x website.sh 
+   28  ./website.sh 
+   29  ls
+   30  cd chilling-cafe/
+   31  ls
+   32  git status
+   33  git branch
+   34  vim website.sh 
+   35  git fetch
+   36  git branch
+   37  git pull
+   38  git fetch origin
+   39  git branch
+   40  git switch feature/development
+   41  git branch
+   42  git add website.sh 
+   43  git commit -m "Changes in web.sh"
+   44  git switch feature/development
+   45  git branch
+   46  vim website.sh 
+   47  git log
+   48  git branch
+   49  ls
+   50  vim README.md 
+   51  git add README.md 
+   52  git commit "updated README.md file with Proper Deployment Guidelines"
+   53  git commit -m "updated README.md file with Proper Deployment Guidelines"
+   54  git push
+   55  git switch main
+   56  git branch
+   57  vim website.sh 
+   58  vim README.md 
+   59  git pull
+   60  vim README.md 
+   61  git pull -f
+   62  git pull --force
+   63  git pull --ff-only
+   64  git config pull.rebase false
+   65  git pull
+   66  vim website.sh 
+   67  vim README.md 
+   68  export EDITOR=vim
+   69  git branch
+   70  git checkout -b bugfix/apache2
+   71  git branch
+   72  ls
+   73  vim bugfix.txt
+   74  git status
+   75  git diff
+   76  git diff --staged
+   77  git add bugfix.txt 
+   78  git diff
+   79  git diff --staged
+   80  git commit -m "fix: Apache2 issue is Resolved with updating latest version"
+   81  git push
+   82  git push --set-upstream origin bugfix/apache2
+   83  history 
+   84  history > history.txt
